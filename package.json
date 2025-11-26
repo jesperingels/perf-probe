@@ -1,0 +1,26 @@
+{
+  "name": "ttfb-performance-monitor",
+  "version": "1.0.0",
+  "description": "A CLI tool to measure Time To First Byte (TTFB) over time and generate visual reports",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "ts-node src/index.ts",
+    "test:quick": "ts-node src/index.ts --duration 1 --interval 10"
+  },
+  "keywords": [
+    "ttfb",
+    "performance",
+    "monitoring",
+    "web-performance",
+    "nextjs",
+    "time-to-first-byte"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.0"
+  }
+}
+
